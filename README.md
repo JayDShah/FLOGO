@@ -135,7 +135,6 @@ The below example retrives the list of verified recipients:
 ##Response Codes
 ### Retrieve List:
 Possible Response Status Codes
-```
 | ResponseCode     | Type | Description |
 |:------------|:---------|:------------|
 200 OK| The request was successful and the response body contains the representation requested.
@@ -151,7 +150,7 @@ Possible Response Status Codes
 504| URL BLANK ERROR|Url String field is blank.
 505|SID BLANK ERROR|Account SID field is blank.
 506|AUTH TOKEN BLANK ERROR|Auth Token String field is blank.
-```
+
 ### Send SMS
 Possible Response Status Codes
 ```
