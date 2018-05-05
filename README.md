@@ -131,9 +131,8 @@ The below example retrives the list of verified recipients:
 	"method":"Retrive Recipients"
 }
 ```
-
-###Response Codes
-## Retrieve List:
+##Response Codes
+## Retrieve List
 Possible Response Status Codes
 | ResponseCode     | Type | Description |
 |:------------|:---------|:------------|
