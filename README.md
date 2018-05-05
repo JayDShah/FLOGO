@@ -132,8 +132,8 @@ The below example retrives the list of verified recipients:
 }
 ```
 
-##Response Codes
-### Retrieve List:
+###Response Codes
+## Retrieve List:
 Possible Response Status Codes
 | ResponseCode     | Type | Description |
 |:------------|:---------|:------------|
@@ -151,23 +151,23 @@ Possible Response Status Codes
 |505|SID BLANK ERROR|Account SID field is blank.|
 |506|AUTH TOKEN BLANK ERROR|Auth Token String field is blank.|
 
-### Send SMS
+## Send SMS
 Possible Response Status Codes
 | ResponseCode     | Type | Description |
 |:------------|:---------|:------------|
-200 |OK| The request was successful, we updated the resource and the response body contains the representation.|
-201 |CREATED| The request was successful, we created a new resource and the response body contains the representation.|
-400 |BAD REQUEST| The data given in the POST or PUT failed validation. Inspect the response body for details.|
-401 |UNAUTHORIZED| The supplied credentials, if any, are not sufficient to create or update the resource.|
-404 |NOT FOUND| You know this one.|
-405 |METHOD NOT ALLOWED| You can't POST or PUT to the resource.|
-429 |TOO MANY REQUESTS| Your application is sending too many simultaneous requests.|
-500 |SERVER ERROR| We couldn't create or update the resource.Please try again.|
-901 |CONNECTIVITY ERROR| Unable to establish connection to Twilio URL specified.|
-1001| INTERNAL ERROR| Check the message field in response for more details on the error.|
-504| URL BLANK ERROR|Url String field is blank.|
-505|SID BLANK ERROR|Account SID field is blank.|
-506|AUTH TOKEN BLANK ERROR|Auth Token String field is blank.|
-501|SMS BODY BLANK ERROR|SMS body is blank.|
-502|TO FIELD BLANK ERROR|To field is blank.|
-503|FROM FIELD BLANK ERROR|From field is blank.|
+|200 |OK| The request was successful, we updated the resource and the response body contains the representation.|
+|201 |CREATED| The request was successful, we created a new resource and the response body contains the representation.|
+|400 |BAD REQUEST| The data given in the POST or PUT failed validation. Inspect the response body for details.|
+|401 |UNAUTHORIZED| The supplied credentials, if any, are not sufficient to create or update the resource.|
+|404 |NOT FOUND| You know this one.|
+|405 |METHOD NOT ALLOWED| You can't POST or PUT to the resource.|
+|429 |TOO MANY REQUESTS| Your application is sending too many simultaneous requests.|
+|500 |SERVER ERROR| We couldn't create or update the resource.Please try again.|
+|901 |CONNECTIVITY ERROR| Unable to establish connection to Twilio URL specified.|
+|1001| INTERNAL ERROR| Check the message field in response for more details on the error.|
+|504| URL BLANK ERROR|Url String field is blank.|
+|505|SID BLANK ERROR|Account SID field is blank.|
+|506|AUTH TOKEN BLANK ERROR|Auth Token String field is blank.|
+|501|SMS BODY BLANK ERROR|SMS body is blank.|
+|502|TO FIELD BLANK ERROR|To field is blank.|
+|503|FROM FIELD BLANK ERROR|From field is blank.|
