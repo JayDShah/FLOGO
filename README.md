@@ -132,7 +132,7 @@ The below example retrives the list of verified recipients:
 }
 ```
 
-##Response Codes
+## Response Codes
 ### Retrieve List
 | ResponseCode     | Type | Description |
 |:------------|:---------|:------------|
@@ -150,7 +150,7 @@ The below example retrives the list of verified recipients:
 |505|SID BLANK ERROR|Account SID field is blank.|
 |506|AUTH TOKEN BLANK ERROR|Auth Token String field is blank.|
 
-## Send SMS
+### Send SMS
 | ResponseCode     | Type | Description |
 |:------------|:---------|:------------|
 |200 |OK| The request was successful, we updated the resource and the response body contains the representation.|
