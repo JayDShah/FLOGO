@@ -134,23 +134,26 @@ The below example retrives the list of verified recipients:
 
 ##Response Codes
 ### Retrieve List:
+Possible Response Status Codes
 ```
-Possible GET Response Status Codes
-200 OK: The request was successful and the response body contains the representation requested.
-302 FOUND: A common redirect response; you can GET the representation at the URI in the Location response header.
-304 NOT MODIFIED: Your client's cached version of the representation is still up to date.
-401 UNAUTHORIZED: The supplied credentials, if any, are not sufficient to access the resource.
-404 NOT FOUND: You know this one.
-429 TOO MANY REQUESTS: Your application is sending too many simultaneous requests.
-500 SERVER ERROR: We couldn't return the representation due to an internal server error.
-503 SERVICE UNAVAILABLE: We are temporarily unable to return the representation. Please wait for a bit and try again.
-901 CONNECTIVITY ERROR: Unable to establish connection to Twilio URL specified.
-1001: INTERNAL ERROR: Check the message field in response for more details on the error.
-504: URL BLANK ERROR:Url String field is blank.
-505:SID BLANK ERROR:Account SID field is blank.
-506:AUTH TOKEN BLANK ERROR:Auth Token String field is blank.
+| ResponseCode     | Type | Description |
+|:------------|:---------|:------------|
+200 OK| The request was successful and the response body contains the representation requested.
+302 FOUND| A common redirect response; you can GET the representation at the URI in the Location response header.
+304 NOT MODIFIED| Your client's cached version of the representation is still up to date.
+401 UNAUTHORIZED| The supplied credentials, if any, are not sufficient to access the resource.
+404 NOT FOUND| You know this one.
+429 TOO MANY REQUESTS| Your application is sending too many simultaneous requests.
+500 SERVER ERROR| We couldn't return the representation due to an internal server error.
+503 SERVICE UNAVAILABLE| We are temporarily unable to return the representation. Please wait for a bit and try again.
+901 CONNECTIVITY ERROR| Unable to establish connection to Twilio URL specified.
+1001| INTERNAL ERROR| Check the message field in response for more details on the error.
+504| URL BLANK ERROR|Url String field is blank.
+505|SID BLANK ERROR|Account SID field is blank.
+506|AUTH TOKEN BLANK ERROR|Auth Token String field is blank.
 ```
 ### Send SMS
+Possible Response Status Codes
 ```
 200 OK: The request was successful, we updated the resource and the response body contains the representation.
 201 CREATED: The request was successful, we created a new resource and the response body contains the representation.
