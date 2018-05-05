@@ -79,6 +79,7 @@ Inputs and Outputs:
 }
 ```
 ## Settings
+
 | Setting     | Required | Description |
 |:------------|:---------|:------------|
 |200 OK| The request was successful and the response body contains the representation requested.|
