@@ -131,9 +131,9 @@ The below example retrives the list of verified recipients:
 	"method":"Retrive Recipients"
 }
 ```
+
 ##Response Codes
-## Retrieve List
-Possible Response Status Codes
+### Retrieve List
 | ResponseCode     | Type | Description |
 |:------------|:---------|:------------|
 |200 |OK| The request was successful and the response body contains the representation requested.|
@@ -151,7 +151,6 @@ Possible Response Status Codes
 |506|AUTH TOKEN BLANK ERROR|Auth Token String field is blank.|
 
 ## Send SMS
-Possible Response Status Codes
 | ResponseCode     | Type | Description |
 |:------------|:---------|:------------|
 |200 |OK| The request was successful, we updated the resource and the response body contains the representation.|
